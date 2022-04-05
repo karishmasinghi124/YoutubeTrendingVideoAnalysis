@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ url_for('static', filename='stylesheets/stylesheet.css') }}">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+
+        <header class="inner"  style="background-color: black;
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+        font-size: 35px;
+        color: white; ! important">
+            <h1>Trending Youtube Videos: Overview</h1>
+        </header>
+
+    </div> 
+
+    <div id="main_content_wrap" class="outer">
+                <h1>Welcome!</h1>
+          
+        <section id="main_content" class="inner">
+                        <div class="container">
+    <center>
+        <img src="https://www.youtube.com/yt/about/media/images/brand-resources/partners-advertisers/good-logo-icons.jpg"
+            alt="OKayyy" width="550" height="250" border="0">
+    </center>
+    </div>
+    <p>This is a redux of
+        <a href="https://github.com/CloudChaoszero/Youtube-TrendsNMore">my Youtube Analysis project back in January
+            2018</a>,
+        with improvements ranging from the following:
+        <ul>
+            <li>API Calls via GCP Developer API Platform</li>
+            <li>Establush database and SQL queries via SQLite</li>
+            <li>Application development via Flask</li>
+        </ul>
+    </p>
+
+        <nav>
+            <h1>Directory</h1>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/search">Search the Database</a>
+                </li>
+                <li>
+                        <a href="/query">Query the Database</a>
+                </li>
+                <li>
+                    <a href="/analytics">Database Insights</a>
+                </li>
+                <li>
+                    <a href="/password">The Super Secret Password</a>
+                </li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Fun Facts</h1>
+            <ul>
+                <li>You can go to
+                    <a href="https://www.youtube.com/feed/trending">https://www.youtube.com/feed/trending</a> to find
+                    what's trending</li>
+                <li>
+                    <a href="https://www.statista.com/statistics/249396/top-youtube-videos-views/">The top trending
+                        video</a> to date was Despacito by Luis Fonsi ft. Daddy Yankee.</li>
+                <li>In 2018, just because you'll trend on Youtube, doesn't imply you will be instantly rich.
+                    Particularly,
+                    <a href="http://fortune.com/2018/02/27/youtube-success-poverty-wages/">
+                        "96.5 percent of all of those trying to become YouTubers won’t make enough money off
+                        of advertising to crack the U.S. poverty line"</a>
+                </li>
+            </ul>
+        </article>
+    </section>
+    </div>
+</body>
+
+</html>
